@@ -1,0 +1,110 @@
+@import "utilities/quienes";
+@import "utilities/contactos";
+
+@import "utilities/mixin";
+@import "utilities/suplementos";
+
+
+
+body{
+
+    background-image: linear-gradient(to bottom, skyblue, rgb(0, 92, 138));
+     ;
+ }
+
+ .navbar-brand{
+   
+    width: 25%;
+ }
+ .nav-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin: 1rem;
+    background-color: whitesmoke;
+    border-radius: 0.4rem;
+    font-weight: bold;
+    box-shadow: 2px 2px rgb(0, 0, 0);
+    padding: 10px;
+    
+    }
+
+ .menu{
+    h1{
+        color:black;
+        text-align: center;
+        font-size: 2.3rem;
+        text-shadow: 2px 2px whitesmoke;
+    }
+   
+ }
+
+
+ .padre{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    font-weight: bold;
+    box-shadow: 2px 2px rgb(0, 0, 0);
+    padding: 50px;
+    
+   
+}
+
+
+
+.padre__produc{
+    
+    display: grid;
+ grid-template-columns: 2fr 2fr  2fr;
+ grid-template-rows:1fr  ;
+ justify-items: center;
+ justify-content: stretch;
+ @media (max-width: 576px) and (min-width:280px) {
+    
+        flex-direction: column;     
+        flex-direction: column;
+        display: grid;
+        grid-template-columns: 2fr;
+        grid-template-rows:1fr  ;
+           
+        }
+ 
+ 
+    
+    
+}
+
+
+.pie__pagina{
+        
+    text-align: center;
+    font-weight: bold;
+    margin: 20px;
+    border-top: 1px solid rgb(0, 0, 0);
+    padding: 20px;
+    margin: 20px;
+    .img__redes{
+        width: 2%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+

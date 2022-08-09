@@ -1,0 +1,57 @@
+@mixin section {
+    background-color: whitesmoke;
+        border-radius: 1rem;
+        font-weight: bold;
+        box-shadow: 2px 2px rgb(0, 0, 0);
+        padding: 10px;
+        margin: 40px ;
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+    grid-template-rows:2fr 2fr ;
+    grid-template-areas:"mainP mainP"
+                        "imagen1 imagen2"
+                        "imagen3 imagen4"
+                        "parrafo parrafo";
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    :hover{
+        transform: scale(1);
+        box-shadow: 3px 3px black;
+    }
+
+}
+
+
+@mixin main {
+    
+        
+        background-color: whitesmoke;
+        border-radius: 1rem;
+        font-weight: bold;
+        box-shadow: 2px 2px rgb(0, 0, 0);
+        padding: 10px;
+        margin: 40px ;
+        display: grid;
+        grid-template-columns: 1fr ;
+    grid-template-rows:1.5fr ;
+    grid-template-areas:"mainP mainP"
+                        "imagen1 imagen2"
+                        "imagen3 imagen4"
+                        "parrafo parrafo";
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    }
+
+
+
+
+    
+        
+
+    
+    
+
+
+

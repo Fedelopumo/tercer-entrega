@@ -1,0 +1,52 @@
+.flex-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px 50px;
+    .form{
+        min-width: 400px;
+        flex: 1;
+        text-align: right;
+        padding: 30px;
+    }
+    
+    .form__input{
+        width: 100%;
+        padding: 7px;
+        margin: 6px 0;
+        border: none;
+        border-bottom:3px solid black;
+        background: whitesmoke;
+    }
+    .form textarea{
+        min-height: 140px;
+    }
+
+
+}
+.form-img{
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    .img-container{        
+        margin: auto;
+        div{
+            background-color: #fff;
+            border-radius: 30%;
+            text-align: center;
+            padding: 40px;
+    
+        }
+         
+    }
+    img {
+        width:30%;
+        margin: auto;
+        
+        
+        
+       
+    }
+
+   }
